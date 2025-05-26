@@ -7,8 +7,8 @@
 // 创建U8G2对象
 U8G2_SH1106_128X64_NONAME_F_HW_I2C display(U8G2_R0,  U8X8_PIN_NONE, SCL, SDA);
 
-const char* ssid = "_55987_WiFi";
-const char* password = "20020719";
+const char* ssid = "";  //改成自己的WiFi名称
+const char* password = "";//改成自己的WiFi密码
 
 const char week[7][10] = {"日", "一", "二", "三", "四", "五", "六"};
 
